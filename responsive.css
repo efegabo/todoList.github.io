@@ -1,0 +1,129 @@
+	body{
+		background-color: #1B2432;
+	}
+	@media(max-width: 480px){
+	 .grid{
+	 	display: grid;
+	 	grid-template-columns: repeat(4, 1fr);
+	 	grid-gap: 5px;
+	 	grid-auto-rows: 35px;
+	 	margin: 50px 0px;
+
+	 }
+	 
+	  .navbar-brand{
+	  	align-self: center;
+	  	justify-self: center;
+	  	text-decoration: none;
+	  	font-size: 20px;
+	  	color: #E6E6E6;
+	  	font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-style: normal;
+	  }
+	 .card-body{
+	 	
+	 	grid-column: 2/5;
+	 	margin-left: 70px;
+	 }
+
+	 .inp-f{
+	display: inline-block;
+	width: 70%;
+
+     }
+     .input-f{
+	 
+	width: 90%;
+	height: 30px;
+	border-radius: 13px;
+
+     }
+     .task-f{
+	 display: inline-block;
+
+     }
+     #container{
+     	margin: 40px 15px;
+     }
+     .app{
+     	
+     	border-radius: 20px;
+     	background-color: #403F4C;
+     }
+     .card-add:hover{
+     	border: 1px solid #2C2B3C ;
+     	border-radius: 20px;
+     }
+		.taskDescription{
+			margin-top: 10px;
+			margin-left: 13px;
+			width: 22.2em;
+			font-size: 18px;
+			color:#E6E6E6;
+			border: none; 
+			background-color:#403F4C; 
+			font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+			 
+		}
+		.txt-compl{
+			font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-style: normal;
+			color: #E6E6E6;
+		}
+		.card-header{
+			font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-style: normal;
+			color: #E6E6E6;
+		}
+		h3{
+			display: inline-block;
+		}
+		.btns{
+			margin-left: 280px;
+			margin-bottom: 10px;
+			 
+		}
+		.btn-delete{
+			padding: 6px 12px;
+			font-size: 20px;
+			color: #BDBDBD;
+			text-decoration: none;
+		}
+		.btn-complete{
+			 
+			font-size: 20px;
+			color: #B76D68;
+			text-decoration: none;
+		}
+		.btn-add{
+			padding: 10px;
+			border-radius: 10px;
+			border: none;
+			background-color: #B76D68;
+		}
+		.sucess{
+			font-size: 15px;
+			color: #FA5858;
+		}
+		.danger{
+			font-size: 15px;
+			color: #5FB404;
+		}
+		.compl{
+			font-size: 20px;
+			margin: 5px 0px;
+			display: inline-block;
+			color: #B76D68;
+		}
+		p{
+			display: inline-block;
+		}
+
+
+}
