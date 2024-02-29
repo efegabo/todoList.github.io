@@ -63,7 +63,7 @@
 	.taskDescription{
 			margin-top: 10px;
 			margin-left: 13px;
-			width: 20em;
+			width: 18em;
 			font-size: 18px;
 			color:#E6E6E6;
 			border: none; 
@@ -90,7 +90,7 @@
 			display: inline-block;
 		}
 		.btns{
-			margin-left: 250px;
+			margin-left: 230px;
 			margin-bottom: 10px;
 			 
 		}
