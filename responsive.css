@@ -31,12 +31,17 @@
 	display: inline-block;
 	width: 70%;
 
+
      }
      .input-f{
 	 
 	width: 90%;
 	height: 30px;
 	border-radius: 13px;
+	font-size: 16px;
+	font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-style: normal;
 
      }
      .task-f{
@@ -55,18 +60,18 @@
      	border: 1px solid #2C2B3C ;
      	border-radius: 20px;
      }
-		.taskDescription{
+	.taskDescription{
 			margin-top: 10px;
 			margin-left: 13px;
-			width: 22.2em;
+			width: 20em;
 			font-size: 18px;
 			color:#E6E6E6;
 			border: none; 
 			background-color:#403F4C; 
 			font-family: "Cinzel", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
 			 
 		}
 		.txt-compl{
@@ -85,12 +90,12 @@
 			display: inline-block;
 		}
 		.btns{
-			margin-left: 280px;
+			margin-left: 250px;
 			margin-bottom: 10px;
 			 
 		}
 		.btn-delete{
-			padding: 6px 12px;
+			padding: 6px 0px;
 			font-size: 20px;
 			color: #BDBDBD;
 			text-decoration: none;
@@ -99,13 +104,16 @@
 			 
 			font-size: 20px;
 			color: #B76D68;
+			margin-left: 12px;
 			text-decoration: none;
 		}
+		
 		.btn-add{
 			padding: 10px;
 			border-radius: 10px;
 			border: none;
 			background-color: #B76D68;
+
 		}
 		.sucess{
 			font-size: 15px;
@@ -125,5 +133,6 @@
 			display: inline-block;
 		}
 
+		
 
 }

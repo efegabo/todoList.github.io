@@ -21,8 +21,11 @@ class listUI{
             </textarea><br>
 			 
 			<div class="btns">  
+
 			<a href="#" class="btn-delete " name="delete">X</a>
+			
 			 <a href="#" class="btn-complete " name="complete">Complete</a>
+			
             </div>	
 			</div>
 			</div>
